@@ -19,8 +19,7 @@
         GoogleAuth.isSignedIn.listen(updateSigninStatus);
     });
   }
-  GoogleAuth.signIn();
-  GoogleAuth.isSignedIn.listen(updateSigninStatus);
+
   var isAuthorized;
 var currentApiRequest;
 
@@ -144,7 +143,7 @@ var GoogleAuth;
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script async defer src="https://apis.google.com/js/api.js"
-        onload="this.onload=function(){};handleClientLoad()" 
+        onload="this.onload=function(){};handleClientLoad()"
         onreadystatechange="if (this.readyState === 'complete') this.onload()">
 
   </script>
