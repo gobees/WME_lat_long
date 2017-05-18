@@ -7,6 +7,7 @@ function editorStats() {
   window.open("https://www.waze.com/user/editor/ramblinwreck_81");
 	var x=document.getElementsByClassName("user-last-edit");
   //var x=document.getElementById("user-last-edit");
+  alert("Hey!");
 	alert(x);
   console.log(x);
   //for (i=0; i<x.length; i++) {
@@ -18,3 +19,4 @@ function editorStats() {
 }
 editorStats();
 });
+//
