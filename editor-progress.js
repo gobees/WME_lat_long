@@ -4,7 +4,7 @@
 // last edit div class "transaction-header-time"
 $(document).ready(function() {
 function editorStats() {
-  window.open("https://www.waze.com/user/editor/geekygirl36");
+  window.open("https://www.waze.com/user/editor/spedracr");
 	var x=document.getElementsByClassName("user-last-edit");
   //var x=document.getElementById("user-last-edit");
   alert("Hey!");
